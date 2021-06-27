@@ -10,7 +10,7 @@
             AbsoluteLayout.LayoutFlags="All"
             Aspect="AspectFill"
             Opacity="0.9"
-             />
+            Source="{local:ImageResource loginapp.images.bg9.png}"/>
 
         <Image
             x:Name="Logo"

@@ -20,7 +20,7 @@
     <None Remove="images\bg9.png" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="ImageResourceExtension.cs" />
+    <EmbeddedResource Include="Controller\ImageResourceExtension.cs" />
     <EmbeddedResource Include="images\logo.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </EmbeddedResource>
