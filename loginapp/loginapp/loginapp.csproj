@@ -18,6 +18,8 @@
     <None Remove="images\" />
     <None Remove="images\logo.jpg" />
     <None Remove="images\bg9.png" />
+    <None Remove="images\cat_bg.jpg" />
+    <None Remove="images\logo_qt.jpg" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Controller\ImageResourceExtension.cs" />
@@ -27,6 +29,10 @@
     <EmbeddedResource Include="images\bg9.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </EmbeddedResource>
+    <EmbeddedResource Include="images\cat_bg.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="images\logo_qt.jpg" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="images\" />

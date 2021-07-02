@@ -4,26 +4,28 @@
              xmlns:local="clr-namespace:loginapp;assembly=loginapp"
              x:Class="loginapp.MainPage">
         
-    <AbsoluteLayout>
-        <Image
-            AbsoluteLayout.LayoutBounds="0,0,1,1"
-            AbsoluteLayout.LayoutFlags="All"
-            Aspect="AspectFill"
-            Opacity="0.9"
-            Source="{local:ImageResource loginapp.images.bg9.png}"/>
-
-        <Image
+    <AbsoluteLayout Background="White">
+        <!--<Image
             x:Name="Logo"
-            Opacity="0"
-            TranslationY="-50"
-            Source="logo"
-            WidthRequest="80"
-            HeightRequest="80"
+            Opacity="100"
+            Source="{local:ImageResource loginapp.images.logo.jpg}"
+            WidthRequest="200"
+            HeightRequest="200"
             AbsoluteLayout.LayoutBounds="0,0,1,.7"
             AbsoluteLayout.LayoutFlags="All"
-            BackgroundColor="#FC5A5A"
             HorizontalOptions="CenterAndExpand"
-            VerticalOptions="CenterAndExpand" />
+            VerticalOptions="CenterAndExpand" />-->
+        <Label
+            Text="ASRI"
+            FontSize="60"
+            FontAttributes="Bold"
+            TextColor="Blue"
+            Opacity="100"
+            AbsoluteLayout.LayoutBounds="0,0,1,.7"
+            AbsoluteLayout.LayoutFlags="All"
+            HorizontalOptions="CenterAndExpand"
+            VerticalOptions="CenterAndExpand"/>
+
         <StackLayout
             Margin="10,30,10,30"
             AbsoluteLayout.LayoutBounds="0,0,1,1"
@@ -36,8 +38,7 @@
                 HorizontalOptions="FillAndExpand">
                 <Button
                     x:Name="FaceButton"
-                    TranslationY="-50"
-                    Opacity="0"
+
                     HeightRequest="60" 
                     BackgroundColor="#3B5998"
                     CornerRadius="5"
@@ -47,8 +48,6 @@
                 <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand">
                     <Button
                         x:Name="LoginButton"
-                        TranslationX="-50"
-                        Opacity="0"
                         HeightRequest="60"
                         BackgroundColor="#FC5A5A"
                         CornerRadius="5"
@@ -57,12 +56,9 @@
                         HorizontalOptions="FillAndExpand" />
                     <Button
                         x:Name="SignupButton"
-                        TranslationX="50"
-                        Opacity="0"
+                        Opacity="100"
                         HeightRequest="60"
-                        BackgroundColor="Transparent"
-                        BorderColor="White"
-                        BorderWidth="1"
+                        BackgroundColor="#FC5A5A"
                         CornerRadius="5"
                         Text="SIGN UP"
                         TextColor="White"
@@ -71,7 +67,7 @@
             </StackLayout>
             <Label
                 FontSize="10"
-                TextColor="White"
+                TextColor="Black"
                 HorizontalOptions="CenterAndExpand"
                 VerticalOptions="EndAndExpand">
                 <Label.FormattedText>
